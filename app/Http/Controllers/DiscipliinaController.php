@@ -14,9 +14,9 @@ class DisciplinaController extends Controller
      */
     public function index()
     {
-        // return Disciplina::all();
-        $disciplinas = Disciplina::all();
-        return view('disciplinas.index',compact('disciplinas'));
+        //        $disciplinas = Disciplina()::all();
+        //        return view('disciplinas.index',compact('disciplinas'));
+        return Disciplina()::all();
     }
 
     /**
@@ -43,10 +43,10 @@ class DisciplinaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Disciplina  $disciplina
+     * @param  \App\Discipliina  $discipliina
      * @return \Illuminate\Http\Response
      */
-    public function show(Disciplina $disciplina)
+    public function show(Discipliina $discipliina)
     {
         //
     }
@@ -54,10 +54,10 @@ class DisciplinaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Disciplina  $disciplina
+     * @param  \App\Discipliina  $discipliina
      * @return \Illuminate\Http\Response
      */
-    public function edit(Disciplina $disciplina)
+    public function edit(Discipliina $discipliina)
     {
         //
     }
@@ -66,10 +66,10 @@ class DisciplinaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Disciplina  $disciplina
+     * @param  \App\Discipliina  $discipliina
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Disciplina $disciplina)
+    public function update(Request $request, Discipliina $discipliina)
     {
         //
     }
@@ -77,10 +77,10 @@ class DisciplinaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Disciplina  $disciplina
+     * @param  \App\Discipliina  $discipliina
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Disciplina $disciplina)
+    public function destroy(Discipliina $discipliina)
     {
         //
     }
